@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+
+<html lang="en-US">
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<title>UstaDerslik</title>
+
+</head>
+
+<style type="text/css">
+
+	
+
+	.ana{width:1000px;padding:25px;background:red;}
+
+	
+
+	.logo{width:250px;height:100px;background:#666;margin-bottom:25px;}
+
+	
+
+	.icerik{width:980px;background:#999;padding:10px;}
+
+	.sol{width:300px;height:500px;background:#666;margin-right:25px;float:left}
+
+	.sag{width:655px;height:550px;background:#666;float:left}
+
+	
+
+	.footer{width:1000px;height:50px;margin-top:25px;background:#666;}
+
+	
+
+	.temiz{clear:both;}
+
+	
+
+	@media screen and (max-width:500px) and (min-width:100px) {
+
+		/*Eðer pencere boyutu 500px ile 100 px arasýnda ise*/
+
+		
+
+		.ana{width:100%;min-width:100px;padding:0;}
+
+		
+
+		.logo{margin:auto;margin-bottom:10px;}
+
+		
+
+		.icerik{width:95%;margin:auto;padding:0;}
+
+		
+
+		.sol,.sag{float:none;width:98%;margin:auto;margin-bottom:10px;}
+
+		
+
+		.footer{width:90%;margin:auto;}
+
+		
+
+	}
+
+</style>
+
+<body>
+
+	
+
+	<div class="ana">
+
+		
+
+		<div class="logo"></div>
+
+		
+
+		<div class="icerik">
+
+			<div class="sol"></div>
+
+			<div class="sag"></div>
+
+			<div class="temiz"></div>
+
+		</div>
+
+		
+
+		<div class="footer"></div>
+
+		
+
+	</div>
+
+	
+
+</body>
+
+</html>
